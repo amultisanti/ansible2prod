@@ -3,7 +3,7 @@
   gather_facts: no
   hosts:
     - serverb.lab.example.com
-    - curso@serverd
+    - servera.lab.example.com
    - name: Ver los facts
      debug:
         var: ansible_facts
